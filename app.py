@@ -11,7 +11,7 @@ def index():
 def connect_db():
     # Verbinding maken met de database
     connection = pymysql.connect(
-        host='srv-mysql-holidayparks-01',
+        host='10.10.2.4',
         user='sqladmin',
         password='wgohcYEFlN9sItoDm1vR',
         db='db-suitecrm',
