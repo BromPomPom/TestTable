@@ -11,9 +11,9 @@ def index():
 def connect_db():
     # Verbinding maken met de database
     connection = pymysql.connect(
-        host='srv-mysql-holidayparks-01.private.mysql.database.azure.com',
-        user='jouw-gebruikersnaam',
-        password='jouw-wachtwoord',
+        host='srv-mysql-holidayparks-01',
+        user='sqladmin',
+        password='wgohcYEFlN9sItoDm1vR',
         db='db-suitecrm',
         cursorclass=pymysql.cursors.DictCursor
     )
