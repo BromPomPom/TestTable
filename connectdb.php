@@ -1,11 +1,15 @@
 <?php
+// Error reporting inschakelen
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 // Initialiseer MySQLi
 $con = mysqli_init();
 
 // Maak verbinding met de MySQL server zonder SSL
 $server = "srv-mysql-holidayparks-01.mysql.database.azure.com";
-$username = "mysqladmin@srv-mysql-holidayparks-01.mysql.database.azure.com"; // Zorg ervoor dat je '@your-mysql-server' toevoegt
-$password = "wgohcYEFlN9sItoDm1vR"; // Vervang dit door je werkelijke wachtwoord
+$username = "sqladmin@srv-mysql-holidayparks-01"; // Zorg ervoor dat je '@srv-mysql-holidayparks-01' toevoegt
+$password = "wgohcYEFlN9sItoDm1vR"; // Het werkelijke wachtwoord
 $database = "db-suitecrm";
 $port = 3306;
 
