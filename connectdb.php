@@ -1,7 +1,7 @@
 <?php
 echo "Welkom bij de HR applicatie van HolidayParks<br>";
 
-$servername = "srv-mysql-holidayparks-01";
+$servername = "10.10.2.4";
 $username = "mysqladmin";
 $password = "wgohcYEFlN9sItoDm1vR";
 $dbname = "db-suitecrm";
